@@ -1,0 +1,74 @@
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*.swo
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history/
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code (keep project settings if needed)
+# .vscode/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+coverage/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Flutter generated files
+.packages
+.flutter-plugins-dependencies
+
+# Android generated files
+android/.gradle/
+android/.kotlin/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# Generated Android plugin registrant
+android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+
+# Build outputs
+*.apk
+*.aab
+*.aar
+*.so
+*.dill
+
+# Symbolication
+app.*.symbols
+app.*.map.json
+
+# Signing keys and sensitive configuration
+*.jks
+*.keystore
+key.properties
+.env
+.env.*
+!.env.example
+
+# Temporary files
+*.tmp
+*.bak
+*.orig
